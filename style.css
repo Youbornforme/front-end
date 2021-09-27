@@ -1,0 +1,145 @@
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+.infoline {
+    background: #80b7ee;
+    padding: 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.info2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.rate {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.rate > article img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#comm1 {
+    width: 350px;
+    word-break: break-all;
+}
+
+#comm2 {
+    width: 350px;
+    word-break: break-all;
+}
+
+#comm3 {
+    width: 350px;
+    word-break: break-all;
+}
+
+#comm4 {
+    width: 350px;
+    word-break: break-all;
+}
+
+#comm5 {
+    width: 350px;
+    word-break: break-all;
+}
+
+.end {
+    background: #80b7ee;
+    text-align: center;
+    padding:50px 0;
+}
+
+.end > h2 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: white;
+}
+
+.row{
+    margin-bottom:30px;
+}
+
+h2{
+    padding:0 0 30px;
+}
+ 
+.textarea{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textarea::after{
+    content:' ';
+    width: 47px;
+    height: 5px;
+    background-color: #f8efef;
+    margin: 10px 0 50px 0;
+}
+
+.get .textarea::after,
+.getin .textarea::after{
+    display: none;
+}
+
+.ourwork .textarea::after{
+    background-color: #ffffff;
+}
+.us{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 40px;
+    min-height:315px;
+    transform: translateY(-10px);
+}
+
+.us h2{
+    transform: translateY(50px);
+}
+
+.facebook{
+    text-align: center; 
+    padding-bottom: 125px;
+    transform:  translateX(-19px);
+}
+
+.facebook>h3{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 0 10px 0;
+}
+
+.landing{
+    text-align: center;
+    padding-bottom: 125px;
+
+}
+
+.landing>h3{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 0 10px 0;
+}
+
+.ads{
+    text-align: center;
+    padding-bottom: 125px;
+}
+
+.ads>h3{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 0 10px 0;
+}
